@@ -1,0 +1,42 @@
+package SimpleRunner;
+
+option java_package = "com.hopped.runner.protobuf";
+option java_outer_classname = "SimpleRunnerProtos";
+option optimize_for = LITE_RUNTIME;
+
+message User {
+    optional string alias = 1;
+    optional int32 id = 2;
+    optional int32 birthdate = 3;
+    optional string totalDistanceMeters = 4;
+    optional string eMail = 5;
+    optional string firstName = 6;
+    optional string gender = 7;
+    optional int32 height = 8;
+    optional string lastName = 9;
+    optional int32 weight = 10;
+}
+
+message Run {
+    optional string alias = 1;
+    optional int32 id = 2;
+    optional int32 averageHeartRateBpm = 3;
+    optional double averagePace = 4;
+    optional double averageSpeed = 5;
+    optional int32 calories = 6;
+    optional int32 date = 7;
+    optional string description = 8;
+    optional double distanceMeters = 9;
+    optional double maximumSpeed = 10;
+    optional int32 maximumHeartRateBpm = 11;
+    optional int32 totalTimeSeconds = 12;
+}
+
+message RunList {
+    repeated Run runs = 1;
+}
+
+message RunRequest {
+    optional User user = 1;
+    optional string distance = 2;
+}
