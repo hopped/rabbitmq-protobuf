@@ -1,8 +1,7 @@
 # rabbitmq-protobuf
 
-> Demonstrating the use of Google's Protocol Buffers for serialization in order
-to interchange data between Perl and Java via [RabbitMQ][rabbitmq] in RPC mode. This
-code is based on the excellent RPC tutorial by RabbitMQ.
+> Demonstrating the use of Google's Protocol Buffers for serialization in order 
+to interchange data between Perl and Java via [RabbitMQ][rabbitmq] in RPC mode. This code is based on the excellent [RPC tutorial][rpc] by RabbitMQ.
 
 
 ## Motivation
@@ -294,7 +293,10 @@ Please [create](https://github.com/hopped/website/issues) an issue.
 
 ## Release History
 
-None.
+| Date        | Version | Comment          |
+| ----------- | ------- | ---------------- |
+| 2014-05-13  | 0.1.0   | Initial release. |
+
 
 ## License
 Copyright 2014 Dennis Hoppe.
