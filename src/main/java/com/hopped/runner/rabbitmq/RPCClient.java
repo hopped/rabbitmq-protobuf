@@ -31,6 +31,9 @@ import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.QueueingConsumer;
 
 /**
+ * Example is based on the excellent RPC tutorial by RabbitMQ:
+ * http://goo.gl/CSqs2w
+ * 
  * @author Dennis Hoppe (hoppe.dennis@ymail.com)
  * 
  */
