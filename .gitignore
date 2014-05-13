@@ -1,3 +1,5 @@
 gradle
 build.log
 src/main/resources/perl/gen-perl
+src/main/resources/java/gen-java
+src/main/resources/java/com/hopped/runner/protobuf
