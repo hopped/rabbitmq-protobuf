@@ -15,7 +15,7 @@ apply plugin: 'application'
 apply plugin: 'cobertura'
 apply plugin: 'eclipse'
 
-mainClassName = "com.hopped.running.demo.Demo"
+mainClassName = "com.hopped.runner.rabbitmq.Main"
 
 repositories {
     mavenCentral()
