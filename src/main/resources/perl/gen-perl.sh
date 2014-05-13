@@ -10,7 +10,6 @@ echo Use 'tail -f build.log' to monitor progress.
     PROTO_EXT=proto
 
 ( # cleanup for further processing
-    cd /tmp
     if [ -d ${PREFIX} ]
     then
         rm -rf ${PREFIX}
@@ -19,7 +18,6 @@ echo Use 'tail -f build.log' to monitor progress.
 )
 
 ( # copy relevant files to /tmp
-
     if [ -d /tmp/${PROTO} ]
     then
         rm -rf /tmp/${PROTO}
@@ -44,7 +42,7 @@ echo Use 'tail -f build.log' to monitor progress.
 ( # finish
     cd /tmp/${PROTO}
 
-    mv blib ${PREFIX}
+    mv blib ${CURDIR}/../../perl
 )
 
 
