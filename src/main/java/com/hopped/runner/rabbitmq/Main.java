@@ -57,9 +57,11 @@ public class Main {
                 .setUser(defaultUser)
                 .build();
 
-        logger.info(" [>] Send request for user " + defaultUser.getAlias());
         // (3) Call the client's method
+        logger.info(" [>] Send request for user " + defaultUser.getAlias());
+
         RunList response = client.getRunsByUser(request);
+
         logger.info(" [<] Received data for "
                 + response.getRunsCount() + " runs");
 

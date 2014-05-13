@@ -27,8 +27,8 @@ use warnings;
 use AnyEvent;
 use Net::RabbitFoot;
 use lib qw(
-    ../../main/resources/perl/gen-perl/blib/lib
-    ../../main/resources/perl/gen-perl/blib/arch/auto/SimpleRunner
+    blib/lib
+    blib/arch/auto/SimpleRunner
 );
 use SimpleRunner;
 use RunnerDB;
