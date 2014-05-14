@@ -1,13 +1,13 @@
 # rabbitmq-protobuf
 
-> Demonstrating the use of Google's Protocol Buffers for serialization in order 
+> Demonstrating the use of Google's Protocol Buffers for serialization in order
 to interchange data between Perl and Java via [RabbitMQ][rabbitmq] in RPC mode. This code is based on the excellent [RPC tutorial][rpc] by RabbitMQ.
 
 
 ## Motivation
 Since one hardly finds any examples of using [RabbitMQ][rabbitmq] in connection with Google's Protocol Buffers ([Protobuf][protobuf]) for Perl, I decided to write a small example of using RabbitMQ in [RPC mode][rpc] to interchange data serialized with Protobuf between Perl and Java.
 
-This tutorial will be part of a ''greater'' series using other data-interchange
+This tutorial is part of a ''greater'' series using other data-interchange
 formats such as [Apache Avro][avro] and [Apache Thrift][thrift].
 
 
